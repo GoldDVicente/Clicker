@@ -1,0 +1,89 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif, Tahoma;
+    font-size: 1em;
+}
+
+body{
+    background-image: url('https://fondosmil.com/fondo/18826.jpg');
+    background-size: cover;
+}
+
+nav{
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: aqua;
+    height: 3vh;
+    border: 3px solid aqua;
+    border-radius: 3px;
+}
+nav div{
+    float: left;
+    margin: 2px 0px 0px 10px
+}
+
+/* Game */
+.game{
+ 
+}
+
+
+/* Section Left */
+.game .sectionLeft{
+    float: left;
+    background-color: brown;
+    margin: 0 auto;
+    padding: 3vh;
+    text-align: center;
+    width: 30vw;
+    height: 90vh;
+}
+
+/* Section Middle */
+.game .sectionMiddle{
+    background-color: aquamarine;
+}
+
+/* Section Right */
+.game .sectionRight{
+    float: right;
+    background-color: blue;
+    margin: 0 auto;
+    padding: 3vh;
+    text-align: center;
+    width: 15vw;
+    height: 90vh;
+}
+
+.game .sectionRight #store{
+
+}
+
+.game .sectionRight #store #storeTittle{
+    background-color: aqua;
+    height: 5vh;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.game .sectionRight #store #upgrades{
+    
+}
+
+.game .sectionRight #store #products{
+    
+}
+
+.game .sectionRight #store #products #storeBulk{}
+
+.game .sectionRight #store #products #storeBulk{}
+.game .sectionRight #store #products .product{}
+
+
+#elementClick{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
